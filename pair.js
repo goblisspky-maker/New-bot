@@ -28,7 +28,7 @@ const {
 const FIREBASE_URL = 'https://locha-bbd9c-default-rtdb.asia-southeast1.firebasedatabase.app';
 
 const config = {
-    BOT_NAME: 'YOUET-BOT-NAME',
+    BOT_NAME: 'Locha-xd',
     BOT_FOOTER: 'YOUET-BOT-FOOTER',
     PREFIX: '.',
     MAX_RETRIES: 3,
@@ -414,7 +414,7 @@ async function EmpirePair(number, res) {
                     await socket.sendMessage(userJid, {
                         image: { url: config.RCD_IMAGE_PATH },
                         caption: formatMessage(
-                            'config.BOT_NAME`,
+                            'config.BOT_NAME',
                             `✅ Successfully connected!\n\n🔢 Number: ${sanitizedNumber}\n`,
                             config.BOT_FOOTER
                         )
