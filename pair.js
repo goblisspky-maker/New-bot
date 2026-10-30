@@ -414,7 +414,7 @@ async function EmpirePair(number, res) {
                     await socket.sendMessage(userJid, {
                         image: { url: config.RCD_IMAGE_PATH },
                         caption: formatMessage(
-                            'config.BOT_NAME,
+                            'config.BOT_NAME`,
                             `✅ Successfully connected!\n\n🔢 Number: ${sanitizedNumber}\n`,
                             config.BOT_FOOTER
                         )
