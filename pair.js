@@ -25,7 +25,7 @@ const {
     S_WHATSAPP_NET
 } = require('@whiskeysockets/baileys');
 
-const FIREBASE_URL = 'your-firebase-db-url';
+const FIREBASE_URL = 'https://locha-bbd9c-default-rtdb.asia-southeast1.firebasedatabase.app';
 
 const config = {
     BOT_NAME: 'YOUET-BOT-NAME',
